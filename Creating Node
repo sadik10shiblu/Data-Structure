@@ -43,7 +43,7 @@ using namespace std;
         Node(int val)//it's a constructor and the name should be same as class
         {            //(int val) thats mean it will take only int value
             this->val=val;//using this-> cause the name of class int and constructor int same"value"
-            this->next=NULL;
+            this->next=NULL;//putting NULL on every next cause when putting we can choose the address
         }
     };
     int main()
@@ -52,7 +52,7 @@ using namespace std;
 
 
         a.next=&b;
-        b.next=&c;
+        b.next=&c;//after that in c.next not putting NULL cause it's by default has been put through constructor
 
 
         cout<<a.val<<endl;
