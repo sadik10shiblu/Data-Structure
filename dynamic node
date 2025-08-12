@@ -13,7 +13,7 @@ class Node
 };
 int main()
 {
-    Node* head= new Node(10);
+    Node* head= new Node(10);         Node* head=There is a variable name "head" it will store a Node's address
     Node* a= new Node(20);
     Node* b= new Node(30);
     head->next=a;
