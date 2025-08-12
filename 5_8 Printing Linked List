@@ -29,7 +29,7 @@ After that, you won’t have a way to go back to the start of the list.
 while(tmp!=NULL)
 {
     cout<<tmp->val<<endl;
-    tmp=tmp->next;
+    tmp=tmp->next;//temp being replaced as the next node
 }
 return 0;
 }
